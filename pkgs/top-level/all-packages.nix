@@ -4805,6 +4805,8 @@ with pkgs;
 
   qarte = callPackage ../applications/video/qarte { };
 
+  qctool = callPackage ../applications/science/biology/qctool { };
+
   qlcplus = libsForQt5.callPackage ../applications/misc/qlcplus { };
 
   qnial = callPackage ../development/interpreters/qnial { };
